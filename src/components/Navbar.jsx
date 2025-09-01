@@ -39,10 +39,10 @@ const Navbar = () => {
             {/* Logo */}
             <Link
               to="/"
-              className="text-2xl font-bold text-black hover:text-amber-700 transition-colors z-50"
+              className="text-2xl font-bold text-black hover:text-blue-500 transition-colors z-50"
             >
               TechMy
-              <span className="text-amber-700">Air</span>
+              <span className="text-blue-500">Air</span>
             </Link>
 
             {/* Desktop Navigation */}
