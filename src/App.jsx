@@ -7,6 +7,7 @@ import Product from "./pages/Product";
 import { ToastContainer } from "react-toastify";
 import CheckoutPage from "./pages/Checkout";
 import OrderSuccess from "./pages/OrderSuccess";
+import Credit from "./components/Credit";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path="/checkout" element={<CheckoutPage />} />
             <Route path="/checkout/success" element={<OrderSuccess />} />
           </Routes>
+          <Credit />
           <ToastContainer position="bottom-center" autoClose={1000} />
     </div>
   );
